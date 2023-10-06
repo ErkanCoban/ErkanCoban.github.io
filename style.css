@@ -55,6 +55,12 @@
     flex-direction: column;
     align-items: center;
 }
+#nom {
+    margin-right: 20px;
+}
+#prenom {
+    margin-left: 20px;
+}
 #traitnoir{
     width: 100vw;
     height: 20vh;
@@ -64,12 +70,20 @@
     position: relative;
 }
 
+#trait {
+    display: flex;
+    align-items: center;
+
+}
+#trait1 {
+    display: flex;
+    align-items: center;
+
+}
+
 #trait-n{
-    height: 20vh;
-    width: 23vw;
-    position: absolute;
-    top: 233px;
-    right: -60px; 
+    width: 160px;
+    
 }
 
 
@@ -82,10 +96,7 @@
     position: relative;
 }
 #trait-b{
-    height: 20vh;
-    width: 23vw;
-    position: absolute;
-    margin-top: 412px;
+    width: 160px;
 }
 
 
@@ -93,22 +104,21 @@
 {
     width: 100%;
     background-color: rgb(255, 255, 255);
-    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#nom{
-    margin-right: 300px;
-    margin-bottom: -20px;
-}
+
+
 .identite
 {
     font-family: 'Dela Gothic One', cursive;
-    font-size: 136px;
+    font-size: 100px;
 }
 #prenom
 {
     color: rgb(29, 29, 179);
-    margin-right: -400px;
-    margin-bottom: -20px;
+
 }
 #blockdev
 {
@@ -158,6 +168,15 @@ justify-content:space-around;
     justify-content: space-around;
 }
 
+#logiciel
+{
+       /* height: 20vh; */
+       width: 50vw;
+       /* background-color: yellow; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
 #leslogiciels
 {
     height: 50vh;
@@ -402,7 +421,7 @@ h2
 {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(125, 29, 29);
+    background-color: rgb(255, 255, 255);
     
    
 }
@@ -427,7 +446,7 @@ h2
 {
     height: ;
     width: 100vw;
-    background-color: rgb(20, 185, 121);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -436,8 +455,8 @@ h2
 
 .photobancaire
 {
-    width: 240px;
-    height: 450px;
+    height: 387px;
+    width: 200px;
 }
 
 
